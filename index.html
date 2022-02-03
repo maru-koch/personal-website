@@ -8,14 +8,15 @@
     <link rel = "stylesheet" href="./style/style.css"/>
 </head>
 <body>
+    <div class="wrapper">
     <header>
         <nav class = "container">
             <div>
-                <img src="./icons/logo_black.png" height= "20", width= "30">
+                <img src="./icons/logo_black.png" class = "icons" id="logo">
             </div>
             <div>
-                <ul>
-                    <li>HOME</li>
+                <ul class ="container">
+                    <li style = "color: #5FB4A2;;">HOME</li>
                     <li>PORTFOLIO</li>
                     <li>CONTACT ME</li>
                 </ul>
@@ -24,15 +25,15 @@
         <div id = "header_image">
             <div id = 'header_card'>
                 <p>Hey, I'm Maru Koch and I love building beautiful Websites.</p>
-                <div>
-                    <img src ="icons/icon.png">
-                    <input type="button" value="ABOUT ME"/>
+                <div id ="header_btnHolder" class = "btnHolder">
+                    <img class="icons" src ="icons/icon.png">
+                    <input type="button" value="ABOUT ME" id="btn"/>
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <section id="about_div" class="container">
+        <section id="about_div" class= "container">
             <div>
                 <img src="./images/profile_picture_4.png" alt="profile picture"/>
             </div>
@@ -50,8 +51,8 @@
                     for a work, run or cycling. I would love you to check out my work.
                     </p>
                 </div>
-                <div class="profile_bio" id = "button">
-                    <input type="button" value="GO TO PORTFOLIO"/>
+                <div class="profile_bio" class ="btnHolder">
+                    <input type="button" value="GO TO PORTFOLIO" id="btn"/>
                 </div>
             </div>
         </section>
@@ -62,30 +63,33 @@
                 <div><p>Interested in doing a Project together?</p></div>
                 <div id="blank"><hr></div>
 
-                <div id="btn">
-                    <input type="button" value="Conctact Me"/>
+                <div class ="btnHolder">
+                    <input type="button" value="Conctact Me" id= "btn"/>
                 </div>
             </div>
         </section>
 
     </main>
 
-    <footer class="container">
-        <div class="footer_divs">
-            <img src="./icons/logo_black.png"/>
-        </div>
-        <div class="footer_divs">
-            <ul class="container">
-                <li>HOME</li>
-                <li>PORTFOLIO</li>
-                <li>CONTACT ME</li>
-            </ul>
-        </div>
-        <div class="footer_divs container">
-            <div><img class ="icons" src="./icons/github.png" alt="github_logo"/></div>
-            <div><img class ="icons" src="./icons/twitter.png" alt="twitter_logo"></div>
-            <div><img class ="icons" src="./icons/linkedin.png" alt="linkedin_logo"></div>
-        </div>
-    </footer>
+        <footer class="container">
+            <div class="wrapper">
+                <div class="footer_divs">
+                    <img src="./icons/logo_white.png" class = "icons" id="logo"/>
+                </div>
+                <div class="footer_divs">
+                    <ul class="container">
+                        <li>HOME</li>
+                        <li>PORTFOLIO</li>
+                        <li>CONTACT ME</li>
+                    </ul>
+                </div>
+                <div class="footer_divs container" id="media-icons">
+                    <div><img class ="icons media" src="./icons/github.png" alt="github_logo"/></div>
+                    <div><img class ="icons media" src="./icons/twitter.png" alt="twitter_logo"></div>
+                    <div><img class ="icons media" src="./icons/linkedin.png" alt="linkedin_logo"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

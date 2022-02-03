@@ -2,8 +2,51 @@ body{
     margin: 0 auto;
     background-color: #FAFAFA;
 }
+#header_card{
+    height: 445px;
+    width: 357px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
 
+background: #FAFAFA;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
+}
+
+.icons{
+    height: 50px;
+    width: 50px;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    padding: 20px;
+}
+
+li{
+    margin: 10px 10px 10px 10px;
+}
+footer{
+    background-color: #33323E;
+    margin: 0 auto;
+    padding: 20;
+    vertical-align: middle;
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 1884px;
+}
+
+footer li{
+    color: #f9f9f9
 }

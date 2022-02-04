@@ -143,6 +143,7 @@ li{
 
 #home{
     color: #5FB4A2;
+    cursor: pointer;
 }
 
 #home:hover{
@@ -153,8 +154,8 @@ footer{
     position: absolute;
     width: 100%;
     height: 80px;
-    left: 0px;
-    top: 1884px;}
+    margin-top: 20%;
+    left: 0px;}
 
 footer li{
     color: #f9f9f9;}
@@ -172,4 +173,7 @@ footer #footer-nav{
 #header_img{
     position: relative;
     width: 100%;
+}
+a{
+    text-decoration: none;
 }

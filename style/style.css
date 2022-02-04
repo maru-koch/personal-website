@@ -161,3 +161,8 @@ footer #footer-nav{
 
 #media-icons .media{
     margin-left: 20px;}
+
+#header_img{
+    position: relative;
+    width: 100%;
+}

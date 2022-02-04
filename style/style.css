@@ -57,14 +57,38 @@ body{
     background-color: #203A4D;
     width: 150px;
     bottom: 0px;
-    right: 10%;
-}
-
-#btn_header{
-    position: absolute;
-    right: 20%;
+    right: 0%;
     height: 48px;
     color: #ffffff
+}
+
+#bio-wrapper{
+    height: 600px;
+    width: 350px;
+    background-color: blueviolet;
+    vertical-align: middle;
+}
+
+#bio-wrapper p{
+    font-family: Public Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+ 
+#bio-wrapper h3{
+    font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+
 }
 
 .container, footer .wrapper{
@@ -94,6 +118,14 @@ nav{
 
 li{
     margin: 10px 10px 10px 10px;
+}
+
+#home{
+    color: #5FB4A2;
+}
+
+#home:hover{
+    color: #203A4D;
 }
 footer{
     background-color: #33323E; 

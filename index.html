@@ -16,7 +16,7 @@
             </div>
             <div>
                 <ul class ="container">
-                    <li style = "color: #5FB4A2;;">HOME</li>
+                    <li id="home">HOME</li>
                     <li>PORTFOLIO</li>
                     <li>CONTACT ME</li>
                 </ul>
@@ -29,7 +29,7 @@
                 </div>
                 
                 <div id ="header_btnHolder" class = "btnHolder">
-                    <img class="icons" src ="icons/icon.png">
+                    <img class="icons" src ="icons/icon.png" height="50px" width= 50px>
                     <input type="button" value="ABOUT ME" id="btn_header"/>
                 </div>
             </div>
@@ -40,7 +40,8 @@
             <div>
                 <img src="./images/profile_picture_4.png" alt="profile picture"/>
             </div>
-            <div>
+            <div id="bio-wrapper">
+                <hr>
                 <div class="profile_bio" id = "header">
                     <h3>About Me</h3>
                 </div>
@@ -55,14 +56,14 @@
                     </p>
                 </div>
                 <div class="profile_bio" class ="btnHolder">
-                    <input type="button" value="GO TO PORTFOLIO" id="btn"/>
+                    <input type="button" value="GO TO PORTFOLIO" id="btn" style="width: 202; border: 1px solid #33323D"/>
                 </div>
+                <hr>
             </div>
         </section>
 
         <section>
             <div class = "container"> 
-    
                 <div><p>Interested in doing a Project together?</p></div>
                 <div id="blank"><hr></div>
 

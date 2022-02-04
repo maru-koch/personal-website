@@ -91,7 +91,9 @@ footer li{
     color: #f9f9f9;
     
 }
-
+footer #footer-nav{
+    margin-left: 20px;
+}
 #media-icons{
     position: absolute;
     right: 10%;

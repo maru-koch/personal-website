@@ -38,6 +38,13 @@ body{
 #header_image{
     height: 600px;
     width: 100% auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header_image img{
+    width: 100%; 
+    justify-content: center; 
 }
 
 #btn, #header_btnHolder{

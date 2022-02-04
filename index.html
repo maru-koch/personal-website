@@ -8,20 +8,23 @@
     <link rel = "stylesheet" href="./style/style.css"/>
 </head>
 <body>
-    <div class="wrapper">
+    
     <header>
-        <nav class = "container">
-            <div>
-                <img src="./icons/logo_black.png" class = "icons" id="logo">
-            </div>
-            <div>
-                <ul class ="container">
-                    <li id="home">HOME</li>
-                    <li>PORTFOLIO</li>
-                    <li>CONTACT ME</li>
-                </ul>
-            </div>
-        </nav>
+        <div class="wrapper">
+            <nav class = "container">
+                <div>
+                    <img src="./icons/logo_black.png" class = "icons" id="logo">
+                </div>
+                <div>
+                    <ul class ="container">
+                        <li id="home">HOME</li>
+                        <li>PORTFOLIO</li>
+                        <li>CONTACT ME</li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
         <div id = "header_image">
             <div id="header_image">
                 <img src="./images/header.png"/>
@@ -38,68 +41,68 @@
             </div>
         </div>
     </header>
-    <main>
-        <section id="about_div" class= "container">
-            <div>
-                <img src="./images/profile_picture_4.png" alt="profile picture"/>
-            </div>
-            <div id="bio-wrapper">
-                <hr>
-                <div class="profile_bio" id = "header">
-                    <h3>About Me</h3>
+    <div class="wrapper">
+        <main>
+            <section id="about_div" class= "container">
+                <div>
+                    <img src="./images/profile_picture_4.png" alt="profile picture"/>
                 </div>
-                <div class="profile_bio" id = "description">
-                    <p>
-                    I am a junior full-stack developer looking for a new roll in an exciting company. 
-                    I focus on writing accessible HTML using mordern CSS practices and writing clean JavaScript.
-                    When writing JavaScript code, I mostly use React but I can adapt to whatever tools are required.
-                    I am based in Lagos, Nigeria, but I'm happy working remotely and have experience in remote teams.
-                    When I am not coding, you will find me outdoor. I love being out in nature, whether that is going 
-                    for a work, run or cycling. I would love you to check out my work.
-                    </p>
+                <div id="bio-wrapper">
+                    <hr>
+                    <div class="profile_bio" id = "header">
+                        <h3>About Me</h3>
+                    </div>
+                    <div class="profile_bio" id = "description">
+                        <p>
+                        I am a junior full-stack developer looking for a new roll in an exciting company. 
+                        I focus on writing accessible HTML using mordern CSS practices and writing clean JavaScript.
+                        When writing JavaScript code, I mostly use React but I can adapt to whatever tools are required.
+                        I am based in Lagos, Nigeria, but I'm happy working remotely and have experience in remote teams.
+                        When I am not coding, you will find me outdoor. I love being out in nature, whether that is going 
+                        for a work, run or cycling. I would love you to check out my work.
+                        </p>
+                    </div>
+                    <div class="profile_bio" class ="btnHolder">
+
+                        <input type="button" value="GO TO PORTFOLIO" id="btn" style="width: 202px; border-radius: 5px; border: 1px solid #33323D; margin-top: 24px; margin-bottom: 24px"/>
+
+                    </div>
+                    <hr>
                 </div>
-                <div class="profile_bio" class ="btnHolder">
+            </section>
 
-                    <input type="button" value="GO TO PORTFOLIO" id="btn" style="width: 202px; border-radius: 5px; border: 1px solid #33323D; margin-top: 24px; margin-bottom: 24px"/>
+            <section>
 
+                <div class = "container section-2"> 
+                    <p>Interested in doing a Project together?</p>
+                    <hr>
+
+                    <div class ="btnHolder">
+                        <input type="button" value="CONTACT ME" id= "btn" style= "border: 1px solid #33323D; width:162px"/>
+                    </div>
                 </div>
-                <hr>
-            </div>
-        </section>
+            </section>
 
-        <section>
-
-            <div class = "container section-2"> 
-                <p>Interested in doing a Project together?</p>
-                <hr>
-
-                <div class ="btnHolder">
-                    <input type="button" value="CONTACT ME" id= "btn" style= "border: 1px solid #33323D; width:162px"/>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-        <footer class="container">
-            <div class="wrapper">
-                <div class="footer_divs">
-                    <img src="./icons/logo_white.png" class = "icons" id="logo"/>
-                </div>
-                <div class="footer_divs" id ="footer-nav">
-                    <ul class="container">
-                        <li>HOME</li>
-                        <li>PORTFOLIO</li>
-                        <li>CONTACT ME</li>
-                    </ul>
-                </div>
-                <div class="footer_divs container" id="media-icons">
-                    <div><a href ="https://github.com/maru-koch" target="_blank"><img class ="icons media" src="./icons/github.png" alt="github_logo"/></div></a>
-                    <div><a href ="https://twitter.com/N__franklyn" target ="_blank"><img class ="icons media" src="./icons/twitter.png" alt="twitter_logo"></a></div>
-                    <div><a href = "https://www.linkedin.com/in/maruche-5v578361a3/" target="_blank"><img class ="icons media" src="./icons/linkedin.png" alt="linkedin_logo"></div></a>
-                </div>
-            </div>
-        </footer>
+        </main>
     </div>
-</body>
+        <div class ="wrapper">
+        <footer class="container">
+            <div class="footer_divs">
+                <img src="./icons/logo_white.png" class = "icons" id="logo"/>
+            </div>
+            <div class="footer_divs" id ="">
+                <ul class="container">
+                    <li>HOME</li>
+                    <li>PORTFOLIO</li>
+                    <li>CONTACT ME</li>
+                </ul>
+            </div>
+            <div class="footer_divs container" id="media-icons">
+                <div><a href ="https://github.com/maru-koch" target="_blank"><img class ="icons media" src="./icons/github.png" alt="github_logo"/></div></a>
+                <div><a href ="https://twitter.com/N__franklyn" target ="_blank"><img class ="icons media" src="./icons/twitter.png" alt="twitter_logo"></a></div>
+                <div><a href = "https://www.linkedin.com/in/maruche-5v578361a3/" target="_blank"><img class ="icons media" src="./icons/linkedin.png" alt="linkedin_logo"></div></a>
+            </div> 
+        </footer>
+        </div>
+    </body>
 </html>

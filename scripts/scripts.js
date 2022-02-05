@@ -14,3 +14,8 @@ function socialMedia(id, image){
 //     var map = new google.maps.Map(mapCanvas, mapOptions)
 //   }
 //   google.maps.event.addDomListener(window, 'load', initialize);
+
+function hidMenu(){
+    menu = document.getElementsByClassName('menu')
+    menu.style.display = 'none';
+}

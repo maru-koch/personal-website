@@ -276,7 +276,6 @@ form{
 
 /* MENU */
 .menu-list{
-    display: inline-block;
     cursor: pointer;
   }
   
@@ -327,6 +326,14 @@ form{
 /* MEDIUMS SCREEN */
 @media (min-width: 769px) and (max-width: 1252px) {
 
+    .menu-list{
+        visibility: visible;
+
+
+    }
+    .menu{
+        display: none;
+    }
     #gmap_canvas, .mapouter{
         margin-top: 40px;
         width: 900px;
@@ -350,8 +357,16 @@ form{
 
 /* IPADS AND TABLETS */
 @media (min-width: 481px) and (max-width: 768px) {
+    .nav{
+        margin-left: 5%;
+        margin-right: 10%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .menu-list{
-        visibility: hidden;
+        display: none;
     }
     #gmap_canvas, .mapouter{
         margin-top: 30px;
@@ -366,9 +381,16 @@ form{
 
 /* MOBILE SCREEN */
 @media (min-width: 320px) and (max-width: 480px) {
+    body{
+        min-width:320px;
+    }
     .nav{
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
     }
     .menu-list{
@@ -408,3 +430,55 @@ form{
 
   
 }
+
+@media (max-width: 320px){
+
+    body{
+        min-width:320px;
+    }
+    .nav{
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .menu-list{
+        visibility: hidden;
+    }
+    #gmap_canvas, .mapouter{
+        margin-top: 10px;
+        width: 320px;
+
+    }
+    .wrapper{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    #social-container, #social-wrapper{
+        background-color: #774949;
+        width: 500px;
+        height: 70PX;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    #form-container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #form-wrapper{
+        margin-right: 20%;
+    }
+  
+}
+    
+

@@ -200,7 +200,7 @@ a{
     width: 300px;
     padding: 10px;
     background-color: #eceae6;
-    margin-right: -50px;
+    margin-left: 150px;
     border-radius: 10px;
     margin-right: -0px;
 }
@@ -274,22 +274,137 @@ form{
     height: 40px;
 }
 
-/* DESKTOP - LARGE SCREEN */
-@media (min-width: 1024px) and (max-width: 1200px) {
-    
+/* MENU */
+.menu-list{
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+
+/* MAP */
+.mapouter{
+    position:relative;
+    text-align:right;
+    height: 500px;
+    width: 600px;}
+
+#gmap_canvas{
+    width: 600px;
+    height: 500px;
 }
+
+/* DESKTOP - LARGE SCREEN */
+@media (min-width: 1253px) and (max-width: 1425px) {
+    #form-wrapper{
+        margin-left:10px;
+    }
+
+}
+/* MEDIUMS SCREEN */
+@media (min-width: 769px) and (max-width: 1252px) {
+
+    #gmap_canvas, .mapouter{
+        margin-top: 40px;
+        width: 900px;
+
+    }
+   .container-left{
+       margin-left: 10%;
+   }
+   
+}
+
 
 /* DESKTOP - SMALL SCREEN */
 @media (min-width: 769px) and (max-width: 1024px) {
-    
+    #gmap_canvas, .mapouter{
+        margin-top: 30px;
+        width: 800px;
+
+    }
 }
 
 /* IPADS AND TABLETS */
 @media (min-width: 481px) and (max-width: 768px) {
-    
+    .menu-list{
+        visibility: hidden;
+    }
+    #gmap_canvas, .mapouter{
+        margin-top: 30px;
+        width: 600px;
+
+    }
+    .wrapper{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 /* MOBILE SCREEN */
 @media (min-width: 320px) and (max-width: 480px) {
+    .nav{
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+    .menu-list{
+        visibility: hidden;
+    }
+    #gmap_canvas, .mapouter{
+        margin-right: 5%;
+        margin-top: 10px;
+        width: 100%;
+
+    }
+    .wrapper{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    #social-container, #social-wrapper{
+        background-color: #774949;
+        width: 500px;
+        height: 70PX;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
+
+    #form-container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #form-wrapper{
+        margin-right: 10%;
+    }
+
+  
 }

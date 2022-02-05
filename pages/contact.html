@@ -18,7 +18,7 @@
                 <div>
                     <ul class ="container">
                         <a href ="../index.html" ><li >HOME</li></a>
-                        <li >PORTFOLIO</li>
+                        <a href ="./portfolio.html"><li >PORTFOLIO</li></a>
                         <li id ="home">CONTACT ME</li>
                     </ul>
                 </div>
@@ -41,30 +41,28 @@
                 </div>
             </section>
             <!-- form -->
-            <section id = 'form-wrapper'>
-                
-                <form>
-                    <div>
-                        <div>
-                            <img src="../icons/logo_white.png" height="16" width="16" alt/>
-
+            <section id = 'form-container'>
+                <div id = "form-wrapper">
+                    <div id = "contact-header">
+                        <div id ="contact-image-wrapper" >
+                            <img src="../icons/logo_white.png" height="25" width="30" alt ="contact-logo"/>
                         </div>
                         <h4>Get in touch</h4>
-                        <p>Do you have a project you at hand, or simply want to say hi? I will be glad to hear from you.</p>
+                        <p>I will be glad to hear from you.</p>
                     </div>
-                    <fieldset>
-                        <Legend>Contact Me</Legend>
-                        <div>
-                            <label>Email</label>
-                            <input type="email"/>
-                        </div>
-                        <div>
-                            <label>Message</label>
-                            <input type="TextArea" name="message"/>
-                        </div>
+                    <form>
+                       
+                            <div class="form-items">
+                                <input id="email" type="email" placeholder="your email address"/>
+                            </div>
+                            <div class="form-items">
+                                <textarea id ="message" name="message" placeholder="type a message" cols="28" rows="5"></textarea>
+                            </div>
                         
-                    </fieldset>
-                </form>
+                            <a><input type="submit" value="Contact Me" class ="contact-btn" id = "btn"/></a>
+                    </form>
+                    
+                </div>
             </section>
             <!-- Map -->
             <section>

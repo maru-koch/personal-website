@@ -274,11 +274,22 @@ form{
     height: 40px;
 }
 
-
-@media (min-width: 768px) and (max-width: 1024px) {
+/* DESKTOP - LARGE SCREEN */
+@media (min-width: 1024px) and (max-width: 1200px) {
     
-    
-
-
 }
 
+/* DESKTOP - SMALL SCREEN */
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+}
+
+/* IPADS AND TABLETS */
+@media (min-width: 481px) and (max-width: 768px) {
+    
+}
+
+/* MOBILE SCREEN */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+}

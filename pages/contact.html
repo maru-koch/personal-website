@@ -22,7 +22,7 @@
                         <li id ="home">CONTACT ME</li>
                     </ul>
                 </div>
-                <div class="menu">
+                <div class="menu" onclick= "menu()" style="cursor: pointer;" >
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
@@ -32,7 +32,12 @@
         
     </header>
   
-
+    <div id = "menu-container" style = "display: none">
+        <a href="#about"><div class="menu-btn"><h3>About</h3></div></a>
+        <a href="./pages/portfolio.html"><div class="menu-btn"><h3>Portfolio</h3></div></a>
+        <a href="./pages/contact.html"><div class="menu-btn"><h3>Contact</h3></div></a>
+    </div>
+    
     <main style="margin-top: 10%; width: 100%;">
         <div class="wrapper2">
         <!-- CONTACT -->

@@ -3,26 +3,34 @@ function socialMedia(id, image){
     whatsappImg.src = "../icons/"+`${image}`;
 }
 
-// function initialize() {
-//     alert("page loaded")
-//     var mapCanvas = document.getElementById('map');
-//     var mapOptions = {
-//       center: new google.maps.LatLng(44.5403, -78.5463),
-//       zoom: 8,
-//       mapTypeId: google.maps.MapTypeId.ROADMAP
-//     }
-//     var map = new google.maps.Map(mapCanvas, mapOptions)
-//   }
-//   google.maps.event.addDomListener(window, 'load', initialize);
 
-function hidMenu(){
-    alert("loaded")
-    menu = document.getElementsByClassName('menu')
-    menu.style.display = 'none';
-}
+
 
 function changeHeaderImage(){
-    img = document.getElementById('header-img')
-    var width = screen.width;
-    alert(width)
+    let img = document.getElementById('header-img')
+    let width = window.screen.width;
+    img.style.src = "../images/profile_600*600.png"
+
 }
+
+function displayMenu(){
+    const menu = document.getElementById("menu-container")
+    menu.style.display = block;
+    menu.style.backgroundColor = '#454545'
+}
+
+function hideMenu(){
+    const menu = document.getElementsByClassName('menu-container')
+    menu.style.display = "none";
+    
+}
+
+function menu() {
+    var x = document.getElementById("menu-container");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+
+  }

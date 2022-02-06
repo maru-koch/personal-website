@@ -21,24 +21,27 @@
                         <a href ="./contact.html"><li >CONTACT ME</li></a>
                     </ul>
                 </div>
-                <div class="menu">
+                <div class="menu" onclick= "menu()" style="cursor: pointer;" >
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
                 </div>
             </nav>
         </div>
-        
-        
     </header>
+    <div id = "menu-container" style = "display: none">
+        <a href="#about"><div class="menu-btn"><h3>About</h3></div></a>
+        <a href="./pages/portfolio.html"><div class="menu-btn"><h3>Portfolio</h3></div></a>
+        <a href="./pages/contact.html"><div class="menu-btn"><h3>Contact</h3></div></a>
+    </div>
     <div class="wrapper">
         <main>
             <!-- 1 -->
             <section id="about_div" class= "container">
-                <div>
+                <div class="bio-wrapper">
                     <img src="../images/lesson.png" alt="profile picture" style="border-radius: 10px;"/>
                 </div>
-                <div id="bio-wrapper">
+                <div class ="bio-wrapper">
                     <hr>
                     <div class="profile_bio" id = "header">
                         <h3 class = "heading">Digital Academy</h3>
@@ -61,7 +64,7 @@
             <!-- 2 -->
             <section id="about_div" class= "container">
                 
-                <div id="bio-wrapper">
+                <div class ="bio-wrapper">
                     <hr>
                     <div class="profile_bio" id = "header">
                         <h3 class = "heading">Learnora Quiz App</h3>
@@ -80,16 +83,16 @@
                     </div>
                     <hr>
                 </div>
-                <div>
+                <div class="bio-wrapper">
                     <img src="../images/quizApp.png" alt="profile picture" style="border-radius: 10px;"/>
                 </div>
             </section>
         <!-- 3 -->
         <section id="about_div" class= "container">
-            <div>
+            <div class = "bio-wrapper">
                 <img src="../images/paintApp.png" alt="profile picture" style="border-radius: 10px;"/>
             </div>
-            <div id="bio-wrapper">
+            <div class = "bio-wrapper">
                 <hr>
                 <div class="profile_bio" id = "header">
                     <h3 class ="heading">Paint App</h3>
@@ -113,7 +116,7 @@
         <!-- 4 -->
         <section id="about_div" class= "container">
             
-            <div id="bio-wrapper">
+            <div class ="bio-wrapper">
                 <hr>
                 <div class="profile_bio" id = "header">
                     <h3 class = "heading">Event Planner</h3>
@@ -132,7 +135,7 @@
                 </div>
                 <hr>
             </div>
-            <div>
+            <div class = "bio-wrapper">
                 <img src="../images/eventAPp.png" alt="profile picture" style="border-radius: 10px;"/>
             </div>
         </section>
@@ -155,9 +158,9 @@
                     </div>
                 </div>
                 <div class="footer_divs container" id="media-icons">
-                    <div><a href ="https://github.com/maru-koch" target="_blank"><img class ="icons media" src="./icons/github.png" alt="github_logo"/></div></a>
-                    <div><a href ="https://twitter.com/N__franklyn" target ="_blank"><img class ="icons media" src="./icons/twitter.png" alt="twitter_logo"></a></div>
-                    <div><a href = "https://www.linkedin.com/in/maruche-5v578361a3/" target="_blank"><img class ="icons media" src="./icons/linkedin.png" alt="linkedin_logo"></div></a>
+                    <div><a href ="https://github.com/maru-koch" target="_blank"><img class ="icons media" src="../icons/github.png" alt="github_logo"/></div></a>
+                    <div><a href ="https://twitter.com/N__franklyn" target ="_blank"><img class ="icons media" src="../icons/twitter.png" alt="twitter_logo"></a></div>
+                    <div><a href = "https://www.linkedin.com/in/maruche-5v578361a3/" target="_blank"><img class ="icons media" src="../icons/linkedin.png" alt="linkedin_logo"></div></a>
                 </div>
             </div>
         </div>

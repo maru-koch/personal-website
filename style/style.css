@@ -76,7 +76,7 @@ body{
     width: 350px;
     vertical-align: middle;
 }
-
+/* 
 #bio-wrapper p{
     font-family: Public Sans;
     font-size: 16px;
@@ -86,16 +86,31 @@ body{
     letter-spacing: 0px;
     text-align: left;
     color: #33323D;
-}
+} */
 
-#bio-wrapper h3{
+.wordings{
+    font-size: 1.2em;
+    justify-self: center;
+    align-items: center;
+    line-height: 1.6;
+    color: #4e4e4e;
+}
+.title{
+    font-size: 1.5em;
+    justify-self: center;
+    align-items: center;
+    line-height: 1.6;
+    color: #303030
+}
+.heading{
     font-family: Ibarra Real Nova;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 42px;
     letter-spacing: -0.3571428656578064px;
     text-align: left;
+    color: #242424
 
 }
 
@@ -121,12 +136,13 @@ body{
     letter-spacing: -0.3571428656578064px;
     text-align: left;
     color: #33323D;
-
 }
+
 .icons{
     height: 40px;
     width: 40px;
 }
+
 #logo{
     height: 30px;
     width: 48px;
@@ -234,6 +250,7 @@ form{
     font-family:0tahoma;
     margin-top: -15px;
 }
+
 #contact-image-wrapper{
     border: 1px solid gray;
     background-color: #454545;
@@ -379,8 +396,8 @@ form{
 .profile-wrapper h3{
     font-size: 2rem;
 }
-.profile-wrapper p{
-    font-size: 1.2em;
+.wordings{
+    font-size: 1.0em;
     justify-self: center;
     align-items: center;
     line-height: 1.2em;
@@ -464,6 +481,13 @@ form{
 
 /* IPADS AND TABLETS */
 @media (min-width: 481px) and (max-width: 1255px) {
+    .wordings{
+        font-size: 1.0em;
+        justify-self: center;
+        align-items: center;
+        line-height: 1.2em;
+        color: #4e4e4e;
+    }
     #header-img{
         display: none;
     }
@@ -521,6 +545,13 @@ form{
 
 /* MOBILE SCREEN */
 @media (min-width: 320px) and (max-width: 480px) {
+    .wordings{
+        font-size: 1.0em;
+        justify-self: center;
+        align-items: center;
+        line-height: 1.2em;
+        color: #4e4e4e;
+    }
     .wrapper2{
         margin-left: 5%;
     }
@@ -580,6 +611,13 @@ form{
 }
 
 @media (max-width: 320px){
+    .wordings{
+        font-size: 1.0em;
+        justify-self: center;
+        align-items: center;
+        line-height: 1.2em;
+        color: #4e4e4e;
+    }
     .wrapper2{
         margin-left: 0%;
     }

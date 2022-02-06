@@ -16,6 +16,13 @@ function socialMedia(id, image){
 //   google.maps.event.addDomListener(window, 'load', initialize);
 
 function hidMenu(){
+    alert("loaded")
     menu = document.getElementsByClassName('menu')
     menu.style.display = 'none';
+}
+
+function changeHeaderImage(){
+    img = document.getElementById('header-img')
+    var width = screen.width;
+    alert(width)
 }

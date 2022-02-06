@@ -321,6 +321,36 @@ form{
     height: 500px;
 }
 
+/* PRODUCT */
+.vertical{
+    background-color: black;
+
+}
+
+.switch-page{
+    margin: 0px 20px 20px
+}
+
+.switch-page h4{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(34, 34, 34);
+}
+
+.switch-page p{
+    font-size:12px;
+    margin-top: -15px;
+    color: rgb(107, 107, 107);
+}
+
+#p-r{
+    text-align: right;
+}
+
+#p-l{
+    text-align: left;
+}
+
 /* DESKTOP - LARGE SCREEN */
 @media (min-width: 1253px) and (max-width: 1425px) {
     #form-wrapper{

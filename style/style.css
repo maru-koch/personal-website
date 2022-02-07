@@ -40,6 +40,10 @@ body{
     bottom: 0%;
     
 }
+.bio-detail{
+    width: 300px;
+}
+
 #header_card p{
     font-size: 40px;
     font-style: bold;
@@ -213,10 +217,6 @@ footer #footer-nav{
 #media-icons .media{
     margin-left: 20px;}
 
-#header_img{
-    position: relative;
-    width: 100%;
-}
 a{
     text-decoration: none;
 }
@@ -430,6 +430,7 @@ form{
 #header-img{
     max-width: 100%;
 }
+
 .profile-bio{
     margin: auto;
     width: 100%;
@@ -559,9 +560,7 @@ form{
         line-height: 1.2em;
         color: #4e4e4e;
     }
-    #header-img{
-        display: none;
-    }
+    
     .wrapper2{
         margin-left: auto;
     }
@@ -710,16 +709,26 @@ form{
 
     #form-wrapper{
         margin: auto;
-        padding-left: 10%;
         margin-top: 20px;
     }
 
-    .container-left{
-        margin: 0 auto;
+    
+    #header-img{
+        display: none;
     }
-}
 
+}
 @media (max-width: 320px){
+
+    #header-img{
+        display: none;
+    }
+
+    #hey{
+        font-size: 0.1em;
+        
+    }
+
     .bio-wrapper{
         display: flex;
         justify-content: center;
@@ -814,7 +823,11 @@ form{
   }
   footer{
       height: 5px;
+
+    
   }
+
+
 }
     
 
